@@ -1,3 +1,201 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+section {
+   padding: 70px 0;
+}
+#banner-section {
+   width: 100%;
+   padding: 120px  0 50px 0;
+}
+.max-width {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 15px;
+}
+.flexible-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#banner-section #left-width {
+    width: 50%
+}
+
+#banner-section #left-width .heading {
+    display: flex;
+}
+.border {
+    width: 5px;
+    height: 143px;
+    background-color: #FF5959;
+    margin-top: 26px;
+    margin-right: 20px;
+}
+#banner-section #right-width {
+    width: 50%;
+    text-align: right;
+}
+
+#banner-section #right-width img{
+   width: 80%;
+}
+#banner-section .title h1 {
+    font-size: 65px;
+}
+#banner-section .title h2 {
+    font-size: 65px;
+    color: orange;
+}
+#banner-section p {
+    width: 80%;
+}
+.link-btn {
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px 40px;
+    background: #FF5959;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    margin: 30px 0;
+}
+#banner-section span {
+    display: block;
+}
+
+
+
+#mission-section .title {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 60px;
+}
+#mission-section span {
+    color: orange;
+    display: inline-block;
+    font-size: 60px;
+}
+#mission-section .row {
+    display: flex;
+    justify-content: space-between;
+}
+#mission-section .single-box {
+    width: 445px;
+    padding: 35px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+#mission-section .single-box p {
+   
+}
+#mission-section .single-box.bg-color1 {
+    background: #EDF5F6;
+}
+#mission-section .single-box.bg-color2 {
+    background: #FFEEEE;
+}
+#mission-section .single-box.bg-color3 {
+    background: #FFF4D6;
+}
+#mission-section .single-box img {
+    width: 50%;
+}
+#mission-section h3 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+
+
+#develop-section #left-width,
+#community-section #right-width {
+    width: 45%;
+}
+#develop-section #right-width {
+    width: 55%;
+}
+#develop-section #left-width img {
+    width: 85%;
+}
+#develop-section .title,
+#community-section .title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#develop-section, 
+#community-section p {
+    font-size: 22px;
+}
+
+
+#community-section #left-width {
+    width: 55%;
+}
+#community-section #right-width {
+    width: 45%;
+    text-align: right;
+}
+#community-section #right-width img{
+    width: 85%;
+}
+
+
+#about-me {
+    padding-top: 0;
+}
+#about-me .flexible-container {
+   
+}
+#about-me  #left-width{
+    width: 50%;
+}
+#about-me  #left-width img{
+    width: 80%;
+}
+#about-me h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#about-me  #right-width{
+    width: 50%;
+}
+#about-me .title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 70px 0;
+}
+footer h1 i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+footer h1 span {
+    display: inline-block;
+    color: #FF5959;
+    font-size: 40px;
+}
+footer p {
+    color: #A0A2A9;
 }
